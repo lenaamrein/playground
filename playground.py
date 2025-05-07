@@ -11,7 +11,7 @@ def multiply(a, b):
 def divide(a, b):
     if b == 0:
         return None
-    return a / b
+    else: return a / b
 
 def is_even(n):
     return n % 2 == 0
@@ -166,17 +166,17 @@ if __name__ == "__main__":
         print("binary_search Test bestanden (Ausser wenn Element nicht in der Liste ist)")
 
 
-    
-test_add()
-test_subtract()
-test_multiply()
-test_divide()
-test_is_even()
-test_max_of_two()
-test_min_of_two()
-test_factorial()
-test_is_palindrome()
-test_count_vowels()
-test_find_max()
-test_bubble_sort()
-test_binary_search()
+        
+    test_add()
+    test_subtract()
+    test_multiply()
+    test_divide()
+    test_is_even()
+    test_max_of_two()
+    test_min_of_two()
+    test_factorial()
+    test_is_palindrome()
+    test_count_vowels()
+    test_find_max()
+    test_bubble_sort()
+    test_binary_search()
